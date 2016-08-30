@@ -1,0 +1,8 @@
+<templateSet group="JsonPayloadHandler">
+  <template name="JsonRequest" value="import (&#10;&#9;&quot;appengine&quot;&#10;&#9;&quot;appengine/datastore&quot;&#10;&#9;&quot;icomstore/util&quot;&#10;&#9;&quot;net/http&quot;&#10;)&#10;&#10;type $SELECTION$Request struct {&#10;&#9;Key *datastore.Key$END$&#10;}&#10;&#10;func (r *$SELECTION$Request) DoRequest(c appengine.Context) (interface{}, error, int) {&#10;&#9;return nil, nil, 0&#10;}&#10;&#10;func $SELECTION$Handler(w http.ResponseWriter, r *http.Request) {&#10;&#9;util.JsonRequestHandler(new($SELECTION$Request), w, r)&#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="JsonSysadminRequest" value="import (&#10;&#9;&quot;appengine&quot;&#10;&#9;&quot;appengine/datastore&quot;&#10;&#9;&quot;icomstore/user_sysadmin&quot;&#10;&#9;&quot;icomstore/util&quot;&#10;&#9;&quot;net/http&quot;&#10;)&#10;&#10;type $SELECTION$Request struct {&#10;&#9;Key *datastore.Key$END$&#10;}&#10;&#10;func (r *$SELECTION$Request) DoRequest(c appengine.Context) (interface{}, error, int) {&#10;&#9;if isSysadmin := user_sysadmin.Bool(c, r.Key); !isSysadmin {&#10;&#9;&#9;return util.UnauthorizedError()&#10;&#9;}&#10;&#9;return nil, nil, 0&#10;}&#10;&#10;func $SELECTION$Handler(w http.ResponseWriter, r *http.Request) {&#10;&#9;util.JsonRequestHandler(new($SELECTION$Request), w, r)&#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

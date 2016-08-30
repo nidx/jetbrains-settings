@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="libraryTable">
+    <library name="angular-1.0.0rc10" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde40/system/extLibs/http_code.angularjs.org_angular-1.0.0rc10.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde40/system/extLibs/http_code.angularjs.org_angular-1.0.0rc10.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="jquery-1.6.2.min" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.aspnetcdn.com_ajax_jQuery_jquery-1.6.2.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.aspnetcdn.com_ajax_jQuery_jquery-1.6.2.min.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="jquery-1.6.4" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.aspnetcdn.com_ajax_jquery_jquery-1.6.4.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.aspnetcdn.com_ajax_jquery_jquery-1.6.4.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="jquery-ui.min" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.googleapis.com_ajax_libs_jqueryui_1.8.13_jquery-ui.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.googleapis.com_ajax_libs_jqueryui_1.8.13_jquery-ui.min.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://jqueryui.com/demos" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="jquery.min" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_1.6.1_jquery.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_1.6.1_jquery.min.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="jquery.tmpl.min" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.microsoft.com_ajax_jquery.templates_beta1_jquery.tmpl.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde10/system/extLibs/http_ajax.microsoft.com_ajax_jquery.templates_beta1_jquery.tmpl.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="jquery.tools.min" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/.WebIde10/system/extLibs/http_cdn.jquerytools.org_1.2.5_jquery.tools.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde10/system/extLibs/http_cdn.jquerytools.org_1.2.5_jquery.tools.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
+

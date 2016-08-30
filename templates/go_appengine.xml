@@ -1,0 +1,8 @@
+<templateSet group="go_appengine">
+  <template name="RunInTransaction" value="&#9;&#9;if err := datastore.RunInTransaction(c,&#10;&#9;&#9;func(tc appengine.Context) error {&#10;&#9;&#9;&#9;return nil&#10;&#9;&#9;}, &amp;datastore.TransactionOptions{XG:true}); err != nil {&#10;&#9;&#9;&#9;return util.InternalServerError(c, err)&#10;&#9;&#9;}" description="RunInTransaction" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ErrWrapper" value="if err := $SELECTION$; err != nil {&#10;&#9;return util.InternalServerError(c, err)&#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

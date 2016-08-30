@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="UglifyJS2 Beautify" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\jdell\AppData\Roaming\npm\uglifyjs.cmd" />
+      <option name="PARAMETERS" value="$FilePath$ -b indent-level=2 -o $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="goimports" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\git-google\go_appengine\gopath\bin\goimports.exe" />
+      <option name="PARAMETERS" value="-w $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
