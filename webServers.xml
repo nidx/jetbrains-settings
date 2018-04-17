@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff7c404a-661f-4494-82a5-59dabdaf19b4" name="rc" url="https://ready-calgary-saml.icom.productions">
+        <fileTransfer host="eco-vm-1.icom.productions" port="22" privateKey="$USER_HOME$/Google Drive/Work/aws/icom-aws.pem" rootFolder="/www/vhosts/ready-calgary-saml/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
