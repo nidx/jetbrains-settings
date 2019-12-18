@@ -4,7 +4,6 @@
     <extensionMap>
       <mapping ext="hta" type="HTML" />
       <mapping ext="vbs" type="Native" />
-      <removed_mapping ext="phpt" type="PHPT" />
       <mapping pattern="findglobals" type="PLAIN_TEXT" />
       <mapping pattern="findphp" type="PLAIN_TEXT" />
       <mapping pattern="BUGS" type="PLAIN_TEXT" />
@@ -49,7 +48,6 @@
       <mapping ext="git" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
-      <mapping ext="phpt" type="PLAIN_TEXT" />
       <mapping ext="pkg" type="PLAIN_TEXT" />
       <mapping ext="komodoproject" type="PLAIN_TEXT" />
       <mapping ext="prefs" type="PLAIN_TEXT" />
@@ -60,7 +58,6 @@
       <mapping ext="0" type="PLAIN_TEXT" />
       <mapping ext="htc" type="PLAIN_TEXT" />
       <mapping ext="action" type="PLAIN_TEXT" />
-      <removed_mapping ext="phpt" type="PHPT" />
     </extensionMap>
   </component>
 </application>
