@@ -4,62 +4,63 @@
     <extensionMap>
       <mapping ext="hta" type="HTML" />
       <mapping ext="vbs" type="Native" />
-      <mapping pattern="checkimport" type="PLAIN_TEXT" />
-      <mapping pattern="NEWS" type="PLAIN_TEXT" />
-      <mapping pattern="dhexch" type="PLAIN_TEXT" />
-      <mapping pattern="dhpriv" type="PLAIN_TEXT" />
+      <removed_mapping ext="phpt" type="PHPT" />
+      <mapping pattern="findglobals" type="PLAIN_TEXT" />
+      <mapping pattern="findphp" type="PLAIN_TEXT" />
       <mapping pattern="BUGS" type="PLAIN_TEXT" />
+      <mapping pattern="findallphp" type="PLAIN_TEXT" />
+      <mapping pattern="default-enable" type="PLAIN_TEXT" />
+      <mapping pattern="prepare-release" type="PLAIN_TEXT" />
+      <mapping pattern="dhexch" type="PLAIN_TEXT" />
+      <mapping pattern="darcs-ignore" type="PLAIN_TEXT" />
+      <mapping pattern="open_tag" type="PLAIN_TEXT" />
+      <mapping pattern="notabs" type="PLAIN_TEXT" />
+      <mapping pattern="nobadbraces" type="PLAIN_TEXT" />
+      <mapping pattern="syntaxcheck" type="PLAIN_TEXT" />
+      <mapping pattern="nobadcase" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern=".eslint" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="n2b64" type="PLAIN_TEXT" />
+      <mapping pattern="nolonglines" type="PLAIN_TEXT" />
+      <mapping pattern="runtests" type="PLAIN_TEXT" />
+      <mapping pattern="CREDITS" type="PLAIN_TEXT" />
       <mapping pattern="docblocks" type="PLAIN_TEXT" />
       <mapping pattern=".project" type="PLAIN_TEXT" />
-      <mapping pattern="mathlib" type="PLAIN_TEXT" />
-      <mapping pattern="n2b64" type="PLAIN_TEXT" />
-      <mapping pattern="checkimports" type="PLAIN_TEXT" />
-      <mapping pattern="darcs-ignore" type="PLAIN_TEXT" />
-      <mapping pattern="nobadbraces" type="PLAIN_TEXT" />
-      <mapping pattern="fixperms" type="PLAIN_TEXT" />
       <mapping pattern="AUTHORS" type="PLAIN_TEXT" />
-      <mapping pattern="findallphp" type="PLAIN_TEXT" />
-      <mapping pattern="ChangeLog" type="PLAIN_TEXT" />
-      <mapping pattern="findphp" type="PLAIN_TEXT" />
-      <mapping pattern="prepare-release" type="PLAIN_TEXT" />
-      <mapping pattern="runtests" type="PLAIN_TEXT" />
-      <mapping pattern="notabs" type="PLAIN_TEXT" />
-      <mapping pattern="findglobals" type="PLAIN_TEXT" />
-      <mapping pattern="nobadcase" type="PLAIN_TEXT" />
-      <mapping pattern="open_tag" type="PLAIN_TEXT" />
-      <mapping pattern="nolonglines" type="PLAIN_TEXT" />
-      <mapping pattern="default-enable" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern=".eslint" type="PLAIN_TEXT" />
-      <mapping pattern="INSTALL" type="PLAIN_TEXT" />
       <mapping pattern="COPYING" type="PLAIN_TEXT" />
-      <mapping pattern="syntaxcheck" type="PLAIN_TEXT" />
-      <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping pattern="CREDITS" type="PLAIN_TEXT" />
+      <mapping pattern="INSTALL" type="PLAIN_TEXT" />
+      <mapping pattern="checkimport" type="PLAIN_TEXT" />
+      <mapping pattern="mathlib" type="PLAIN_TEXT" />
+      <mapping pattern="checkimports" type="PLAIN_TEXT" />
+      <mapping pattern="ChangeLog" type="PLAIN_TEXT" />
+      <mapping pattern="NEWS" type="PLAIN_TEXT" />
+      <mapping pattern="dhpriv" type="PLAIN_TEXT" />
+      <mapping pattern="fixperms" type="PLAIN_TEXT" />
       <mapping pattern="library-name" type="PLAIN_TEXT" />
-      <mapping ext="tsv" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="php___jb_old___" type="PLAIN_TEXT" />
       <mapping ext="xrds" type="PLAIN_TEXT" />
-      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
-      <mapping ext="bin" type="PLAIN_TEXT" />
-      <mapping ext="action" type="PLAIN_TEXT" />
-      <mapping ext="pkg" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="debian" type="PLAIN_TEXT" />
+      <mapping ext="res" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="git" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="phpt" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="pkg" type="PLAIN_TEXT" />
+      <mapping ext="komodoproject" type="PLAIN_TEXT" />
       <mapping ext="prefs" type="PLAIN_TEXT" />
       <mapping ext="manifest" type="PLAIN_TEXT" />
-      <mapping ext="komodoproject" type="PLAIN_TEXT" />
-      <mapping ext="lock" type="PLAIN_TEXT" />
-      <mapping ext="res" type="PLAIN_TEXT" />
-      <mapping ext="0" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="0" type="PLAIN_TEXT" />
       <mapping ext="htc" type="PLAIN_TEXT" />
-      <mapping ext="php___jb_old___" type="PLAIN_TEXT" />
+      <mapping ext="action" type="PLAIN_TEXT" />
+      <removed_mapping ext="phpt" type="PHPT" />
     </extensionMap>
   </component>
 </application>
