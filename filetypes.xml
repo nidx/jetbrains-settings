@@ -5,9 +5,9 @@
       <mapping ext="hta" type="HTML" />
       <mapping ext="vbs" type="Native" />
       <mapping pattern="findglobals" type="PLAIN_TEXT" />
-      <mapping pattern="findphp" type="PLAIN_TEXT" />
       <mapping pattern="BUGS" type="PLAIN_TEXT" />
       <mapping pattern="findallphp" type="PLAIN_TEXT" />
+      <mapping pattern="library-name" type="PLAIN_TEXT" />
       <mapping pattern="default-enable" type="PLAIN_TEXT" />
       <mapping pattern="prepare-release" type="PLAIN_TEXT" />
       <mapping pattern="dhexch" type="PLAIN_TEXT" />
@@ -23,6 +23,7 @@
       <mapping pattern="n2b64" type="PLAIN_TEXT" />
       <mapping pattern="nolonglines" type="PLAIN_TEXT" />
       <mapping pattern="runtests" type="PLAIN_TEXT" />
+      <mapping pattern="checkimports" type="PLAIN_TEXT" />
       <mapping pattern="CREDITS" type="PLAIN_TEXT" />
       <mapping pattern="docblocks" type="PLAIN_TEXT" />
       <mapping pattern=".project" type="PLAIN_TEXT" />
@@ -31,12 +32,11 @@
       <mapping pattern="INSTALL" type="PLAIN_TEXT" />
       <mapping pattern="checkimport" type="PLAIN_TEXT" />
       <mapping pattern="mathlib" type="PLAIN_TEXT" />
-      <mapping pattern="checkimports" type="PLAIN_TEXT" />
+      <mapping pattern="findphp" type="PLAIN_TEXT" />
       <mapping pattern="ChangeLog" type="PLAIN_TEXT" />
       <mapping pattern="NEWS" type="PLAIN_TEXT" />
       <mapping pattern="dhpriv" type="PLAIN_TEXT" />
       <mapping pattern="fixperms" type="PLAIN_TEXT" />
-      <mapping pattern="library-name" type="PLAIN_TEXT" />
       <mapping ext="php___jb_old___" type="PLAIN_TEXT" />
       <mapping ext="xrds" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
